@@ -1,0 +1,11 @@
+**Ubicación:** `semantic-density-monitor/requirements.txt`
+
+**Instrucción:** Abre el Bloc de Notas. Copia y pega el contenido de abajo. Guarda el archivo con el nombre `requirements.txt`.
+
+**Contenido:**
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+scipy>=1.10.0
+gradio>=4.0.0
+accelerate>=0.26.0
