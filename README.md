@@ -24,7 +24,7 @@ The tool computes **ΔS = S(coherent) - S(broken)** over a parallel corpus of **
 
 ### A Note on the Bilingual Results (DistilBERT)
 
-This demo runs on DistilBERT (66M params) to ensure accessibility on Hugging Face's free-tier hardware. Its performance is not a flaw but a striking empirical validation of the findings in *The Stone Guest* paper:
+This demo runs on DistilBERT (66M params) to ensure accessibility on Hugging Face's free-tier hardware. Its performance is not a flaw but a striking empirical validation of the findings in *The Stone Guest* paper (v2.0, 2026):
 
 - **🇬🇧 English (ΔS > 0):** In English, the model operates in a pre-critical regime. This is consistent with the paper, which identifies the critical phase transition for English near ~410M parameters.
 - **🇪🇸 Spanish (ΔS < 0):** Crucially, the same model exhibits a clear phase inversion in Spanish. This empirically corroborates the paper's theory of **language-geometry interaction**: lower-density training languages force earlier geometric compression, making the phase transition detectable at much smaller model scales.
@@ -44,7 +44,7 @@ This result proves the metric's sensitivity and confirms the theoretical predict
 
 ### Reference
 
-Cerda Seguel, D. (2025). *The Stone Guest: Harmonic Quantization of Semantic Phase Transitions in Large Language Models*. arXiv.
+Cerda Seguel, D. (2026). *The Stone Guest: Harmonic Quantization of Semantic Phase Transitions in Large Language Models* (Version 2.0). Zenodo. [https://doi.org/10.5281/zenodo.20820598](https://doi.org/10.5281/zenodo.20820598)
 
 ---
 
